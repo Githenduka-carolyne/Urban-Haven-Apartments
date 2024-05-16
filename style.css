@@ -1,0 +1,42 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: var(---primary color black);
+}
+.body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.html{
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+/* header */
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items: center;
+  gap: 2rem;
+  
+}
+.header-title{
+  text-transform: capitalize;
+}
+.header-nav-link{
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+.header-navigation-link{
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(---primary);
+}
+/* media query */
+@media screen and (max-width:55.5em){
+  .header{
+    display: flex;
+    flex-direction: column;
+  }
+}
