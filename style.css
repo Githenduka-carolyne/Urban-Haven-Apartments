@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: var(---primary color black);
@@ -106,6 +108,51 @@
   .hero-paragraph{
     font-size: 1rem;
   }
+}
+.about-apartment{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.apartment-exterior-img{
+  width: 450px;
+  padding: 2rem;
+  border-radius: 20%;
+}
+.about-textbox{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+.about-heading{
+  text-transform: capitalize;
+  font-family:  "Playfair Display", serif;
+  font-size: 5rem;
+  text-align: center
+}
+@media screen and (max-width: 38em) {
+  .about-apartment{
+    flex-direction: column;
+  }
+  .about-textbox{
+    position: center;
+    justify-content: center;
+    
+    
+  }
+  .about-heading{
+    font-size: 3rem;
+    
+  }
+  .about-details{
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 1rem;
+  }
+  
 }
 
 
