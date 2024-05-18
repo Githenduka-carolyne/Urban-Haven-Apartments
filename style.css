@@ -239,16 +239,16 @@
 
 @media screen and (max-width:51.5em) {
   .rooms-heading-info{
-    margin-left: 47px;
+    margin-left: 40px;
     font-size: 45px;
   }
 }
 
-@media screen and (max-width:31.2em) {
+@media screen and (max-width:28em) {
   .rooms-heading-info{
-    margin-left: 55px;
-    font-size: 30px;
-    font-weight: 800;
+    margin-left: 48px;
+    font-size: 38px;
+    font-weight: 700;
   }
 }  
 
