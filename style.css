@@ -3,6 +3,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   color: var(---primary color black);
+  scroll-behavior: smooth;
 }
 *{
   margin: 0;
@@ -19,10 +20,11 @@
   flex-direction: row;
   justify-content:space-between;
   align-items: center;
-  /* gap: 2rem; */
+  position: fixed;
   background-color: 	#a6a6a6;
   padding: 0 2rem;
-  /* width: 100%; */
+  width: 100%;
+  z-index: 100;
 }
 .header-title{
   text-transform: capitalize;
@@ -59,8 +61,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 92vh;
-  /* width: 80vw; */
+  height: 99vh;
   position: relative;
   display: flex;
   justify-content: center;
@@ -74,15 +75,15 @@
   align-items: center;
   width:30vw ;
   height:40vh ;
-  /* position: center; */
   gap: 2rem;
 }
 
 .hero-maintitle{
   text-transform: uppercase;
   text-align: center;
+  font-family:  "Playfair Display", serif;
   color: white;
-  font-size:1.5rem;
+  font-size:2rem;
   
 }
 .hero-paragraph{
@@ -263,7 +264,7 @@
 }
 .amenities-heading-info{
   font-family:"Playfair Display", serif ;
-  padding: 20px;
+  padding: 27px;
   margin-left: 430px;
   font-size: 50px;
   font-style: italic;
@@ -296,7 +297,6 @@ i{
   .amenities-heading-info{
     margin-left: 90px;
     font-size: 33px;
-    
   }
 } 
 
