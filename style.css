@@ -99,6 +99,7 @@
   padding: 1rem 2rem;
   border-radius: 10px;
 }
+
 @media screen and (max-width: 38em) {
   .hero-textbox{
     /* position: center; */
@@ -112,6 +113,7 @@
   .hero-paragraph{
     font-size: 1rem;
   }
+
 }
 
 /*About section */
@@ -334,6 +336,9 @@ i{
   flex-basis: 50%;
   width: 100%;
 }
+.form-requirements-side h1{
+font-family: "Playfair Display", serif ;
+}
 form input,form textarea {
   width: 85%;
   border: 0;
@@ -358,6 +363,7 @@ fieldset{
   cursor: pointer;
   background-color: #E34A27;
   border-radius: 15px;  
+  border: none;
 }  
 @media screen and (max-width:75em) {
   .row{
